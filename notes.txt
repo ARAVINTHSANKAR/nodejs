@@ -1,0 +1,25 @@
+1. variable and functions that are declared in functional context
+	will be hoisted.
+2. identifier that is not found in variable object will get a reference error.
+3. mostly properties are global and variables are in functional context.
+4.variable function cannot be deleted, where the other(global) function can be deleted.
+5. undefined is a type, value, variable.... 
+	(typeof(undefined)// undefined
+	var a; alert(a) // undefined
+	undefined = "aravinth"; // so undefined is a variable--only in ECMA 3
+	)
+6.jpa is dance hibernate is a dancer
+7.api is the spec jpa is the rules and guidelines(for ORM) hibernate is the implementaion
+8. archive files-combination of many computer files in some compressed formats.
+9.software tools- is a computer program used to support other programs that the developers create
+10.package manager-  collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system
+11. objects are mutable(obj1 == 12 == obj2) where variables are non-mutable(var a = 5; a = 4).
+12. const is a keyword where variables acts as immutable.
+eg var a = 19;
+	alert(a); // 19
+	a = 20; // possible 
+	alert(a) // 20
+ const b = 1;
+alert (b); // 1
+b = 2; //error
+
